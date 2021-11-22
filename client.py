@@ -38,6 +38,8 @@ def upld(file_name):
     except:
         print ("Error sending file details")
 
-conn()
-upld(file_name)
+        
+if __name__=="__main__":
+    conn()
+    upld(file_name)
 
