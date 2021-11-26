@@ -18,12 +18,6 @@ conn, addr = s.accept()
 def upld():
     try:
         a = conn.recv(1024).decode()
-   # if "@" in a:
-    #    print("a.split")
-     #   a = a.split("@")[0]
-   # else:
-    #    print("name not completed!")
-     #   return
         print("with open a, wb as file_2")
         conn.close()
         file_2 = open (a, "wb")
